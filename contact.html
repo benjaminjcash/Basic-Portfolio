@@ -17,9 +17,9 @@
 				<h1>Benjamin Cash</h1>
 			</div>
 			
-			<a class=navigationlinks href="contact.html">Contact</a>
-			<a class=navigationlinks href="portfolio.html">Portfolio</a>
-			<a class=navigationlinks href="index.html">About</a>
+			<a class="navigationlinks" href="contact.html">Contact</a>
+			<a class="navigationlinks" href="portfolio.html">Portfolio</a>
+			<a id="lastnavigationlink" href="index.html">About</a>
 
 		</div>
 
@@ -28,14 +28,27 @@
 		<div id="mainbox">
 
 			<div id="topbar2">
-
 				<div id="maintitle">
 					<h1>Contact</h1>
 				</div>
-
 			</div>
 
+			<form id="contactform">
+  				<p class="entrytitles">Name</p><br>
+  				<input class="onelineimputs" type="text" placeholder="John Smith">
+  					<br><br>
+  				<p class="entrytitles">Email</p><br>
+  				<input class="onelineimputs" type="text" placeholder="example@gmail.com">
+  					<br><br>
+  				<p class="entrytitles">Message</p><br>
+  				<textarea class="largeimput" type="text"></textarea>
+  					<br><br>		
+			</form>
+
+			<button id="submitbtn" type="button">Submit</button>
+
 		</div>
+
 
 		<div id="connectbox">
 
@@ -53,6 +66,12 @@
 
 		</div>
 
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div id="footer">
+		<p>&copy Copyright 2017 Benjamin Cash</p>
 	</div>
 	
 </body>
